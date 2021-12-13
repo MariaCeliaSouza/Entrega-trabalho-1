@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 130px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo img {
+  height: 40px;
+  width: 100px;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 130px;
+  align-items: center;
+}
+
+.lihome:hover {
+  background-color: #ffa500;
+  padding: 10px;
+  width: 35px;
+  height: auto;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.lisobre:hover {
+  background-color: #ffa500;
+  padding: 10px;
+  width: 35px;
+  height: auto;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.licontato:hover {
+  background-color: #ffa500;
+  padding: 10px;
+  width: 50px;
+  height: auto;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+
+.container {
+  display: flex;
+  width: 650px;
+  height: 120px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container__half {
+  flex: 1;
+  background-color: #fff;
+  text-align: center;
+  background-color: #fff;
+  text-align: center;
+  align-self: center;
+}
+
+.content {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.esquerdo {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.esquerdo p {
+  width: 70%;
+  text-align: justify;
+}
+
+#direito {
+  height: 75%;
+  border-left: 1px dotted black;
+}
+
+.inputClasse {
+  position: relative;
+}
+
+.container__input:not(:placeholder-shown) + .container__label {
+  background: #fff;
+  transform: translate(0, -50%);
+  opacity: 1;
+}
+
+/* .container__label {
+  Position the label
+  left: -112px;
+  top: -102px;
+  position: relative;
+  border-left: 1px pointer black;
+} */
+
+
+#footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+}
+
+#footer p {
+  color: #fff;
+}
+
+#logocor {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#Loren {
+  width: 320px;
+  height: 92px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 2px;
+  display: flex;
+}
+
+#principal {
+  border: 1px solid black;
+  margin-top: 10%;
+  display: flex;
+}
+fieldset {
+  border: none;
+}
+
+#fielemail {
+  top: 12px;
+  position: relative;
+}
+
+#pfooter {
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+#Enviar {
+  position: relative;
+  top: 37px;
+  left: -125px;
+}
+
+legend {
+  position: relative;
+  left: -8px;
+  top: -15px;
+}
